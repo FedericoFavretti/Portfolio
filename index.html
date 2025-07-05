@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Federico Favretti</h1>
+    <p>Estudiante de Informática | Desarrollador Web</p>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy estudiante de informática, apasionado por la programación. Me interesa el desarrollo web y la creación de soluciones funcionales y creativas. Estoy en constante aprendizaje.
+    </p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="proyecto">
+      <h3>Gestor de Tareas</h3>
+      <img src="assets/proyecto1.png" alt="Gestor de Tareas" />
+      <p>Aplicación CRUD para crear, editar y eliminar tareas. Hecha con HTML, CSS y JavaScript.</p>
+      <a href="https://tudemo.netlify.app" target="_blank">Ver online</a>
+      <a href="https://github.com/tuusuario/gestor-tareas" target="_blank">Ver código</a>
+    </div>
+
+    <!-- Más proyectos... -->
+
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Querés ponerte en contacto conmigo? Podés escribirme por mail o usar el siguiente formulario.</p>
+
+    <form action="https://formspree.io/f/tu_id" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo" required />
+      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="redes">
+      <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+      <a href="mailto:tuemail@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Federico Favretti. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

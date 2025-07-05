@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 0;
+    background: #2d2d2d;
+    color: white;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00adb5;
+    font-weight: bold;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #00adb5;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .proyecto {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .proyecto img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .proyecto a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background: #00adb5;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .redes a {
+    margin-right: 15px;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
