@@ -37,7 +37,12 @@
     padding-bottom: 5px;
     margin-bottom: 20px;
   }
-  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   .estudio {
     margin-bottom: 30px;
     background: white;
